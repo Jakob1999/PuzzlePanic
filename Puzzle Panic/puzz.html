@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="puzz.css">
+    <title>Puzzle Panic</title>
+</head>
+<body>
+    <h1>Can you make the boards match?</h1>
+    <h2>Rules:</h2>
+    <p id="tiles"></p>
+    <p>Clicking one tile will change the color of the tile you clicked and all the adjacent tiles.</p>
+    <p id="clicksLeft"></p>
+    <button id="genGrid" onclick="genrateGrid()">New Game</button>
+    <button id="incLvl" onclick="incLvl()">Increase difficulty</button>
+    <button id="decLvl" onclick="decLvl()">Decrease difficulty</button> 
+    <table id="solutionGrid"></table>
+    
+    <table id="grid" value="You board"></table>
+    <h2 id="result"></h2>
+    
+    <script src="puzz.js"></script>
+</body>
+</html>

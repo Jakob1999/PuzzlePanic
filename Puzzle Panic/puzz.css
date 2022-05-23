@@ -1,0 +1,34 @@
+#grid {
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid;
+  border-color: lightgreen;
+  /* box-shadow: 4px 4px rgb(90, 88, 88); */
+}
+  
+#grid TR TD{
+  border:1px solid white;
+  background: #999999;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+}
+
+#solutionGrid {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2vh;
+  }
+    
+  #solutionGrid TR TD{
+    border:1px solid white;
+    background: #999999;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+  }
+
+body{
+  background-color: black;
+  color: white;
+}
